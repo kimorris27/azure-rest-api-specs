@@ -781,6 +781,7 @@
       "description": "Values returned by the List operation."
     },
     "CloudError": {
+      "type": "object",
       "x-ms-external": true,
       "properties": {
         "error": {
@@ -791,6 +792,7 @@
       "description": "An error response from the ManagedServiceIdentity service."
     },
     "CloudErrorBody": {
+      "type": "object",
       "x-ms-external": true,
       "properties": {
         "code": {
